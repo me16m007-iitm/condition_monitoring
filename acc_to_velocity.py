@@ -7,7 +7,7 @@ import numpy as np
 from scipy.fftpack import fft, ifft
 from scipy import signal
 
-def get_velocity(d_f, t=1, f_s=25600):
+def get_velocity(d_f, t=1, f_s=20480):
     """
     The function converts the vibration acceleration(m/s2) into velocity(mm/s).
     reference: http://dx.doi.org/10.1155/2015/962793.
