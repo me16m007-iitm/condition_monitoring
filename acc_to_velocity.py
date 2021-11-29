@@ -13,7 +13,7 @@ def get_velocity(d_f, t=1, f_s=25600):
     reference: http://dx.doi.org/10.1155/2015/962793.
          https://iopscience.iop.org/article/10.1088/1742-6596/1345/4/042067/pdf
     Parameters:
-    d_f(series): Time series signal from sensor assumed in m/s2
+    d_f(series): Time series signal from sensor assumed in m/s2, series object
     t(seconds): The time over which the sampling is done.
     fs(int): Sampling frequency of the data.
     Returns:
